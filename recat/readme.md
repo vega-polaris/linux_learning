@@ -8,11 +8,11 @@ From this directory, run `python main.py <string to reverse> <flags>`
 # What are the flags?
 This little program can be told to ignore spaces:
 ```
-❯ python main.py "hello world"
-dlrow olleh
+❯ python main.py "HelLo WorLD"
+DLroW oLleH
 
-❯ python main.py "hello world" --ignore-spaces
-dlrowolleh
+❯ python main.py "HelLo WorLD" --ignore-spaces
+DLroWoLleH
 ```
 
 ...or ignore cases:
